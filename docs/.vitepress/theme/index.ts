@@ -58,10 +58,10 @@ export default {
         const route = useRoute();
         // giscus配置
         giscusTalk({
-                repo: 'yiwangai1983/giscus',
-                repoId: 'R_kgDOOTM8Dg',
+                repo: 'yiwangai1983/yiwangai1983',
+                repoId: 'R_kgDOOTHIeA',
                 category: 'General', // default: `General`
-                categoryId: 'DIC_kwDOOTM8Ds4CovBw',
+                categoryId: 'DIC_kwDOOTHIeM4CovJ9',
                 mapping: 'title',
                 inputPosition: 'bottom',
                 lang: 'zh-CN',
