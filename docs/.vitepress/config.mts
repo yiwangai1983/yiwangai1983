@@ -96,7 +96,7 @@ const vitePressOptions = {
             options: {
                 appId: 'TTYBASMNZI',
                 apiKey: '210535eceb7ef925e02ffd8141d23e8e',
-                indexName: 'yiwangai1983',
+                indexName: 'yiwangai1983_github_io_ttybasmnzi_pages',
                 locales: {
                     root: {
                         placeholder: '搜索文档',
