@@ -37,11 +37,11 @@ jobs:
       - name: Build with VitePress
         run: |
           pnpm run docs:build # 启动项目
-          touch .vitepress/dist/.nojekyll  # 通知githubpages不要使用Jekyll处理这个站点
+          touch docs/.vitepress/dist/.nojekyll  # 通知githubpages不要使用Jekyll处理这个站点
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3  # 上传构建产物
         with:
-          path: .vitepress/dist # 指定上传的路径
+          path: docs/.vitepress/dist # 指定上传的路径
 
   # 部署工作
   deploy:
