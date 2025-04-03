@@ -21,7 +21,7 @@ const vitePressOptions = {
     title: "胖胖爸爸的游戏小站",
     description: "分享一些有趣的东西",
     head: [
-        ['link', {rel: 'icon', href: '/logo.png'}],
+        ['link', {rel: 'icon', href: '/yiwangai1983/logo.png'}],
         [
             'script',
             {},
@@ -53,7 +53,7 @@ const vitePressOptions = {
                         text: 'Switch',
                         items: [
                             {text: '游戏', link: '/switch/游戏/index'},
-                            {text: '工具箱', link: '/switch/工具箱/index'}
+                            {text: '工具箱', link: '/switch/工具箱/整合包_19.0.0.html'}
                         ]
                     },
                     {
@@ -80,7 +80,7 @@ const vitePressOptions = {
         },
         footer: {
             // 主页页脚
-            message: '本站发布内容如有侵权请联系站长删除'
+            message: '本站发布内容如有侵权请到<a href="https://github.com/yiwangai1983/yiwangai1983" target="_blank">Github</a>提交issue联系删除'
         },
         //Algolia搜索
         search: {
