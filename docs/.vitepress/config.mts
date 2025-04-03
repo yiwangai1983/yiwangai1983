@@ -16,6 +16,7 @@ const vitePressSidebarOptions = [
 ];
 
 const vitePressOptions = {
+    base: '/yiwangai1983/',
     lang: 'zh-CN',
     title: "胖胖爸爸的游戏小站",
     description: "分享一些有趣的东西",
