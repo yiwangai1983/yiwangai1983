@@ -61,7 +61,7 @@ export default {
                 repo: 'yiwangai1983/giscus',
                 repoId: 'R_kgDOOTM8Dg',
                 category: 'General', // default: `General`
-                categoryId: 'DIC_kwDOOTM8Ds4CovBv',
+                categoryId: 'DIC_kwDOOTM8Ds4CovBw',
                 mapping: 'title',
                 inputPosition: 'bottom',
                 lang: 'zh-CN',
