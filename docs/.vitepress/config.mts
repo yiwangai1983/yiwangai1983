@@ -8,10 +8,10 @@ const vitePressSidebarOptions = [
         scanStartPath: 'switch',
         basePath: '/switch/',
         resolvePath: '/switch/',
-        useTitleFromFileHeading: true,
-        collapsed: true,
-        sortMenusOrderNumericallyFromTitle: true,
-        useFolderLinkFromSameNameSubFile: true
+        useTitleFromFileHeading: false,
+        collapsed: false,
+        useFolderLinkFromSameNameSubFile: true,
+        sortMenusByFrontmatterDate: true
     }
 ];
 
@@ -29,7 +29,7 @@ const vitePressOptions = {
               var _hmt = _hmt || [];
                 (function() {
                   var hm = document.createElement("script");
-                  hm.src = "https://hm.baidu.com/hm.js?58e937362dd799a3c7483da7b03df763";
+                  hm.src = "https://hm.baidu.com/hm.js?16d0939c5681e2c37cc708d479b586e3";
                   var s = document.getElementsByTagName("script")[0]; 
                   s.parentNode.insertBefore(hm, s);
                 })();
@@ -42,7 +42,7 @@ const vitePressOptions = {
     themeConfig: {
         logo: '/logo.png',
         //隐藏主页标题
-        siteTitle: false,
+        siteTitle: '游戏小站',
         nav: [
             {text: '首页', link: '/'},
             {
@@ -52,8 +52,8 @@ const vitePressOptions = {
                     {
                         text: 'Switch',
                         items: [
-                            {text: '游戏', link: '/switch/说明'},
-                            {text: '工具箱', link: '/switch/说明'}
+                            {text: '游戏', link: '/switch/游戏/index'},
+                            {text: '工具箱', link: '/switch/工具箱/index'}
                         ]
                     },
                     {
