@@ -18,7 +18,7 @@ const vitePressSidebarOptions = [
 const vitePressOptions = {
     transformHead: ({pageData}) => {
         const head: HeadConfig[] = []
-        head.push(['meta', {property: 'algolia-site-verification', content: '2C9B462D33666B08'}])
+        head.push(['meta', {name: 'algolia-site-verification', content: '2C9B462D33666B08'}])
         return head
     },
     base: '/yiwangai1983/',
