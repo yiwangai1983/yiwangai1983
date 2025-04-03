@@ -83,60 +83,60 @@ const vitePressOptions = {
             message: '本站发布内容如有侵权请到<a href="https://github.com/yiwangai1983/yiwangai1983" target="_blank">Github</a>提交issue联系删除'
         },
         //Algolia搜索
-        search: {
-            provider: 'local'
-        },
         // search: {
-        //     provider: 'algolia',
-        //     options: {
-        //         appId: '2Z834SUMQV',
-        //         apiKey: '52572cf5945ec8ed05ae4e9f6b2581c5',
-        //         indexName: 'marchhare',
-        //         locales: {
-        //             root: {
-        //                 placeholder: '搜索文档',
-        //                 translations: {
-        //                     button: {
-        //                         buttonText: '搜索文档',
-        //                         buttonAriaLabel: '搜索文档'
-        //                     },
-        //                     modal: {
-        //                         searchBox: {
-        //                             resetButtonTitle: '清除查询条件',
-        //                             resetButtonAriaLabel: '清除查询条件',
-        //                             cancelButtonText: '取消',
-        //                             cancelButtonAriaLabel: '取消'
-        //                         },
-        //                         startScreen: {
-        //                             recentSearchesTitle: '搜索历史',
-        //                             noRecentSearchesText: '没有搜索历史',
-        //                             saveRecentSearchButtonTitle: '保存至搜索历史',
-        //                             removeRecentSearchButtonTitle: '从搜索历史中移除',
-        //                             favoriteSearchesTitle: '收藏',
-        //                             removeFavoriteSearchButtonTitle: '从收藏中移除'
-        //                         },
-        //                         errorScreen: {
-        //                             titleText: '无法获取结果',
-        //                             helpText: '你可能需要检查你的网络连接'
-        //                         },
-        //                         footer: {
-        //                             selectText: '选择',
-        //                             navigateText: '切换',
-        //                             closeText: '关闭',
-        //                             searchByText: ''
-        //                         },
-        //                         noResultsScreen: {
-        //                             noResultsText: '无法找到相关结果',
-        //                             suggestedQueryText: '你可以尝试查询',
-        //                             reportMissingResultsText: '你认为该查询应该有结果？',
-        //                             reportMissingResultsLinkText: '点击反馈'
-        //                         },
-        //                     },
-        //                 },
-        //             },
-        //         },
-        //     },
+        //     provider: 'local'
         // },
+        search: {
+            provider: 'algolia',
+            options: {
+                appId: 'TTYBASMNZI',
+                apiKey: '210535eceb7ef925e02ffd8141d23e8e',
+                indexName: 'yiwangai1983',
+                locales: {
+                    root: {
+                        placeholder: '搜索文档',
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档'
+                            },
+                            modal: {
+                                searchBox: {
+                                    resetButtonTitle: '清除查询条件',
+                                    resetButtonAriaLabel: '清除查询条件',
+                                    cancelButtonText: '取消',
+                                    cancelButtonAriaLabel: '取消'
+                                },
+                                startScreen: {
+                                    recentSearchesTitle: '搜索历史',
+                                    noRecentSearchesText: '没有搜索历史',
+                                    saveRecentSearchButtonTitle: '保存至搜索历史',
+                                    removeRecentSearchButtonTitle: '从搜索历史中移除',
+                                    favoriteSearchesTitle: '收藏',
+                                    removeFavoriteSearchButtonTitle: '从收藏中移除'
+                                },
+                                errorScreen: {
+                                    titleText: '无法获取结果',
+                                    helpText: '你可能需要检查你的网络连接'
+                                },
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换',
+                                    closeText: '关闭',
+                                    searchByText: ''
+                                },
+                                noResultsScreen: {
+                                    noResultsText: '无法找到相关结果',
+                                    suggestedQueryText: '你可以尝试查询',
+                                    reportMissingResultsText: '你认为该查询应该有结果？',
+                                    reportMissingResultsLinkText: '点击反馈'
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
         // 页眉超链接
         socialLinks: [
             // {
