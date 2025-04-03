@@ -1,4 +1,4 @@
-import {defineConfig} from 'vitepress'
+import {defineConfig,HeadConfig } from 'vitepress'
 import {withSidebar} from 'vitepress-sidebar';
 
 
@@ -16,6 +16,11 @@ const vitePressSidebarOptions = [
 ];
 
 const vitePressOptions = {
+    transformHead: ({ pageData }) => {
+        const head: HeadConfig[] = []
+        head.push(['meta', { property: 'algolia-site-verification', content: '2C9B462D33666B08' }])
+        return head
+    },
     base: '/yiwangai1983/',
     lang: 'zh-CN',
     title: "胖胖爸爸的游戏小站",
