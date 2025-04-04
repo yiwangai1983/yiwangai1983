@@ -94,9 +94,9 @@ const vitePressOptions = {
         search: {
             provider: 'algolia',
             options: {
-                appId: 'TTYBASMNZI',
-                apiKey: '210535eceb7ef925e02ffd8141d23e8e',
-                indexName: 'yiwangai1983_github_io_ttybasmnzi_pages',
+                appId: 'BKYVSZGT8R',
+                apiKey: 'dfbeba7e3a589cf5b74176873be6f7ba',
+                indexName: 'yiwangai1983io',
                 locales: {
                     root: {
                         placeholder: '搜索文档',
